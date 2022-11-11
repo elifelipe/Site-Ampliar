@@ -320,20 +320,11 @@ header {
     margin-left: 18rem;
 }
 
-.ex {
-    text-align: center;
-    padding-left: 17rem;
-}
-
-.ex2 {
-    text-align: center;
-    padding-left: 17rem;
-}
-
 .card-info h2 {
+  padding-top: 20px;
   font-family: var(--font-primary);
   font-weight: 500;
-  font-size: 44px;
+  font-size: 36px;
   color: #eee;
 }
 
@@ -352,11 +343,10 @@ header {
   width: 100%;
   color: white;
   text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
-
 }
 
 .btn {
-    margin-top: 2rem;
+  margin-top: 2rem;
   background: #307a93;
   background: -webkit-linear-gradient(to right, #44e3ff, #307a93);
   background: linear-gradient(to left, #44e3ff, #307a93);
@@ -369,7 +359,8 @@ header {
 }
 
 .btn2 {
-    margin-top: 3rem;
+  margin-top: 19px;
+  margin-left: 21rem;
   background: #307a93;
   background: -webkit-linear-gradient(to right, #44e3ff, #307a93);
   background: linear-gradient(to left, #44e3ff, #307a93);
@@ -378,8 +369,6 @@ header {
   border-radius: 0.5rem;
   border: none;
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
-  margin-left: 19rem;
-  margin-top: 19px;
 }
 
 .card-info button {
@@ -393,12 +382,14 @@ header {
   background-color: #234180;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .apresentacao-wrapper {
   width: 90%;
   height: 30rem;
+  margin: 1rem;
+  margin-bottom: 3rem;
   box-shadow: 0 2rem 3rem rgba(21, 127, 227, 0.5);
   border-radius: 30px;
 }
@@ -412,7 +403,7 @@ header {
 }
 
 .you {
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -481,7 +472,7 @@ header {
 
 footer{
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   background-color: #17181b;
   display: flex;
   justify-content: center;
@@ -527,45 +518,82 @@ footer{
     margin-right: 50px;
   }
 
-  .card {
-    width: 180px;
-    height: 380px;
-    position: relative;
-    font-size: 14px;
-    padding-bottom: 30px;
-  }
-
-  .sobres {
-    display: flex;
-    flex-direction: column;
-    width: 92%;
-    margin-left: 15px;
-    padding-bottom: 15px;
-  }
-
   .you {
+    margin-top: -1rem;
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
   }
 
   .wrapped-iframe {
-    width: auto;
-    height: auto;
+    width: 90%;
+    height: 300px;
     margin-top: 35px;
   }
 
   .sessao-apresentacao {
     width: 100%;
-    height: 600px;
+    height: 100%;
     background-color: #157897;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .footer-content p{
     align-items: center;
     font-size: 15px;
   }
+
+  .monitorias {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: auto;
+    width: 380px;
+    height: 180px;
+    position: relative;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+
+  .card-info{
+    width: 350px;
+    margin-left: 1rem;
+  }
+
+  .btn {
+    margin-left: 6rem;
+  }
+
+  .card-info2 {
+    position: absolute;
+    margin: -10rem;
+    margin-left: 12rem;
+    text-align: end;
+  }
+
+  .card-info2 p{
+    font-size: 14px;
+  }
+
+  .btn2 {
+    margin-top: -2;
+    margin-left: 6rem;
+  }
+
+  .card-info h3 {
+    text-align: start;
+  }
+
+  .ex {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  h3.ex2{
+    text-align: center;
+  }
+
 } 
