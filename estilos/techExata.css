@@ -469,7 +469,7 @@ footer{
   .card-info {
     position: absolute;
     margin: 5.4rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5.5rem;
     bottom: 0;
     opacity: 0;
     visibility: hidden;  
@@ -478,7 +478,11 @@ footer{
   }
   
   .card-info h2 {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .card-info h4 {
+    font-size: 14px;
   }
 
   .you {
