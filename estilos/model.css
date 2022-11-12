@@ -357,20 +357,6 @@ header {
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
   margin-left: 10rem;
 }
-
-.btn2 {
-  margin-top: 19px;
-  margin-left: 21rem;
-  background: #307a93;
-  background: -webkit-linear-gradient(to right, #44e3ff, #307a93);
-  background: linear-gradient(to left, #44e3ff, #307a93);
-  font-family: var(--font-action);
-  color: #eee;
-  border-radius: 0.5rem;
-  border: none;
-  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
-}
-
 .card-info button {
   width: 8rem;
   height: 2.5rem;
